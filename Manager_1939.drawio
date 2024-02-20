@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T19:26:31.283Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="zOPc3EpC5SoetPL7jV_c" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T19:59:20.921Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="AZM7CoBwNnLECpA3tLwq" version="23.1.5" type="github">
   <diagram name="Página-1" id="8xvFDHTsMIwnHShBx-MU">
-    <mxGraphModel dx="1362" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1135" dy="638" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-1" value="&lt;h1&gt;Registrar ECU&#39;s&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Registra em uma tabela as ECU&#39;s que fizeram address claim no barramento os seguintes parâmetros:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name (name identifier);&lt;br&gt;&lt;/li&gt;&lt;li&gt;address (address on network).&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-2" value="&lt;h1&gt;Linca ECU name a uma callback&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Possui previamente registrado uma tabela de names associados a callbacks de ECUs conhecidas. Possui os campos:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name (name identifier);&lt;br&gt;&lt;/li&gt;&lt;li&gt;callback_name (pointer to previously&lt;span data-text=&quot;previously&quot; data-start=&quot;11&quot; data-originaltext=&quot;previous&quot; data-end=&quot;18&quot; class=&quot;corrected-phrase ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;corrected-phrase__displayed-text corrected-phrase__displayed-text_no-correction ng-star-inserted&quot;&gt;&lt;/span&gt; registered ECU manager).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="295" height="187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-3" value="&lt;h1&gt;Linca uma callback &lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Possui previamente registrada todos os PGN&#39;s&amp;nbsp; de cada ECU a ser usada em conjunto com a IsoSpread e uma callback para lidar com a mensagem de cada PGN . Possui os campos:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PGN;&lt;br&gt;&lt;/li&gt;&lt;li&gt;callback_pgn (pointer to&amp;nbsp;&lt;span data-text=&quot;previously&quot; data-start=&quot;11&quot; data-originaltext=&quot;previous&quot; data-end=&quot;18&quot; class=&quot;corrected-phrase ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;corrected-phrase__displayed-text corrected-phrase__displayed-text_no-correction ng-star-inserted&quot;&gt;&lt;/span&gt;previously registered function to deal with PGN&#39;s payload).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="295" height="187.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
