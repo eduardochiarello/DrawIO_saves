@@ -1,23 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T20:06:50.546Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="vcgPSWxo0Dyb-qDRIiDh" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:25:58.294Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="Gm-E8Zftx2_nebHKYoA2" version="23.1.5" type="github">
   <diagram name="Página-1" id="8xvFDHTsMIwnHShBx-MU">
-    <mxGraphModel dx="1135" dy="638" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="933" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TR7ryQl5EBYibkMOO0rx-1" value="&lt;h1&gt;Registrar ECU&#39;s&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Registra em uma tabela as ECU&#39;s que fizeram address claim no barramento os seguintes parâmetros:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name (name identifier);&lt;br&gt;&lt;/li&gt;&lt;li&gt;address (address on network).&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="100" width="220" height="170" as="geometry" />
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TR7ryQl5EBYibkMOO0rx-1" target="TR7ryQl5EBYibkMOO0rx-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TR7ryQl5EBYibkMOO0rx-2" value="&lt;h1&gt;Linca ECU name a uma callback&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Possui previamente registrado uma tabela de names associados a callbacks de ECUs conhecidas. Possui os campos:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name (name identifier);&lt;br&gt;&lt;/li&gt;&lt;li&gt;callback_name (pointer to previously&lt;span data-text=&quot;previously&quot; data-start=&quot;11&quot; data-originaltext=&quot;previous&quot; data-end=&quot;18&quot; class=&quot;corrected-phrase ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;corrected-phrase__displayed-text corrected-phrase__displayed-text_no-correction ng-star-inserted&quot;&gt;&lt;/span&gt; registered ECU manager).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="100" width="295" height="187.5" as="geometry" />
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-1" value="&lt;h1&gt;Registrar ECU&#39;s&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Registra em uma tabela as ECU&#39;s que fizeram address claim no barramento os seguintes parâmetros:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name (name identifier);&lt;br&gt;&lt;/li&gt;&lt;li&gt;address (address on network).&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="227.5" width="220" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="TR7ryQl5EBYibkMOO0rx-3" value="&lt;h1&gt;Linca uma PGN a callback &lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Possui previamente registrada todos os PGN&#39;s&amp;nbsp; de cada ECU a ser usada em conjunto com a IsoSpread e uma callback para lidar com a mensagem de cada PGN . Possui os campos:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PGN;&lt;br&gt;&lt;/li&gt;&lt;li&gt;callback_pgn (pointer to&amp;nbsp;&lt;span data-text=&quot;previously&quot; data-start=&quot;11&quot; data-originaltext=&quot;previous&quot; data-end=&quot;18&quot; class=&quot;corrected-phrase ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;corrected-phrase__displayed-text corrected-phrase__displayed-text_no-correction ng-star-inserted&quot;&gt;&lt;/span&gt;previously registered function to deal with PGN&#39;s payload).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="65" y="315" width="315" height="175" as="geometry" />
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TR7ryQl5EBYibkMOO0rx-2" target="TR7ryQl5EBYibkMOO0rx-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TR7ryQl5EBYibkMOO0rx-4" value="&lt;h1&gt;Send Message&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="525" width="250" height="120" as="geometry" />
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-2" value="&lt;h1&gt;Linca ECU name a uma callback&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Possui previamente registrado uma tabela de names associados a callbacks de ECUs conhecidas. Possui os campos:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name (name identifier);&lt;br&gt;&lt;/li&gt;&lt;li&gt;callback_name (pointer to previously&lt;span data-text=&quot;previously&quot; data-start=&quot;11&quot; data-originaltext=&quot;previous&quot; data-end=&quot;18&quot; class=&quot;corrected-phrase ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;corrected-phrase__displayed-text corrected-phrase__displayed-text_no-correction ng-star-inserted&quot;&gt;&lt;/span&gt; registered ECU manager).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="930" y="218.75" width="295" height="187.5" as="geometry" />
         </mxCell>
-        <mxCell id="TR7ryQl5EBYibkMOO0rx-5" value="&lt;h1&gt;Receive Message&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="435" y="520" width="260" height="115" as="geometry" />
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TR7ryQl5EBYibkMOO0rx-3" target="TR7ryQl5EBYibkMOO0rx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-3" value="&lt;h1&gt;Linca um PGN a uma callback &lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Possui previamente registrada todos os PGN&#39;s&amp;nbsp; de cada ECU a ser usada em conjunto com a IsoSpread e uma callback para lidar com a mensagem de cada PGN . Possui os campos:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PGN;&lt;br&gt;&lt;/li&gt;&lt;li&gt;callback_pgn (pointer to&amp;nbsp;&lt;span data-text=&quot;previously&quot; data-start=&quot;11&quot; data-originaltext=&quot;previous&quot; data-end=&quot;18&quot; class=&quot;corrected-phrase ng-star-inserted&quot;&gt;&lt;/span&gt;&lt;span class=&quot;corrected-phrase__displayed-text corrected-phrase__displayed-text_no-correction ng-star-inserted&quot;&gt;&lt;/span&gt;previously registered function to deal with PGN&#39;s payload).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1315" y="207.5" width="335" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-4" value="&lt;h1&gt;Send Message&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Responsável por receber um name e um payload, consultar a tabela de endereços com o name e enviar a mensagem can. Recebe:&lt;/p&gt;&lt;ul&gt;&lt;li align=&quot;justify&quot;&gt;Name;&lt;/li&gt;&lt;li align=&quot;justify&quot;&gt;Payload.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1745" y="235" width="310" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TR7ryQl5EBYibkMOO0rx-5" target="TR7ryQl5EBYibkMOO0rx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TR7ryQl5EBYibkMOO0rx-5" value="&lt;h1&gt;Receive Message&lt;br&gt;&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;Responsável por filtrar as mensagem relacionadas a ECUs proprietárias e encaminhar as mesmas para o manager.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="227.5" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="400" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-8" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="150" width="1480" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-9" value="Isobus Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="125" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uop6IzEU8PpyhL8lgHBj-10" value="Third party ECUs manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="125" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
